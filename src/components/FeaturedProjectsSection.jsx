@@ -10,8 +10,9 @@ export default function FeaturedProjectsSection() {
         {projects.map((project) => (
           <article key={project} className="group relative">
             <img
-              src="https://vivredemo.files.wordpress.com/2022/07/sundae-1.png"
-              alt=""
+              className="w-full"
+              src="https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt={project}
             />
             <h2 className="mt-2">
               <Link className="project text-2xl font-bold" href="/">
