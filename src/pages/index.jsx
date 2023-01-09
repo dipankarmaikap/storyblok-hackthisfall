@@ -12,3 +12,12 @@ export default function HomePage() {
     </Fragment>
   );
 }
+export async function getStaticProps() {
+  return {
+    props: {
+      key: "home-page",
+      story: null,
+    },
+    revalidate: 60,
+  };
+}
