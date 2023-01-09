@@ -12,7 +12,7 @@ let components = {
   FeaturedProjectsSection,
 };
 storyblokInit({
-  accessToken: process.env.NEXT_PUBLIC_ACESS_TOKEN,
+  accessToken: process.env.NEXT_PUBLIC_STORYBLOK_ACESS_TOKEN,
   use: [apiPlugin],
   components,
 });
