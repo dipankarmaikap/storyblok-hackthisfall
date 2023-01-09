@@ -1,6 +1,21 @@
-import Layout from "~/components/Layout";
+import Layout from "~/components/fixed/Layout";
 import "~/styles/globals.css";
-
+// import FeaturedPostsSection from "~/components/FeaturedPostsSection";
+// import DefaultPage from "~/components/DefaultPage";
+// import HeroSection from "~/components/HeroSection";
+// import FeaturedProjectsSection from "~/components/FeaturedProjectsSection";
+// import { storyblokInit, apiPlugin } from "@storyblok/react";
+// let components = {
+//   FeaturedPostsSection,
+//   DefaultPage,
+//   HeroSection,
+//   FeaturedProjectsSection,
+// };
+// storyblokInit({
+//   accessToken: process.env.NEXT_PUBLIC_ACESS_TOKEN,
+//   use: [apiPlugin],
+//   components,
+// });
 function MyApp({ Component, pageProps }) {
   return (
     <Layout>

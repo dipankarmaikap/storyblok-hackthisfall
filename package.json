@@ -1,6 +1,6 @@
 {
-  "name": "nextjs-tailwind-starter-ts",
-  "description": "A simple starter to get up and running with nextjs,tailwindcss,TS",
+  "name": "storyblok-hackthisfall",
+  "description": "A simple demo to get up and running with nextjs and storyblok.",
   "author": "Dipankar Maikap <mail@dipankarmaikap.com>",
   "version": "0.1.0",
   "private": true,
@@ -8,9 +8,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "proxy": "mkcert -install && mkcert localhost && local-ssl-proxy --source 3010 --target 3000 --cert localhost.pem --key localhost-key.pem"
   },
   "dependencies": {
+    "@storyblok/react": "^2.0.3",
     "dayjs": "^1.11.7",
     "next": "13.1.1",
     "react": "18.2.0",
