@@ -13,7 +13,6 @@
   },
   "dependencies": {
     "@storyblok/react": "^2.0.3",
-    "dayjs": "^1.11.7",
     "next": "13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
