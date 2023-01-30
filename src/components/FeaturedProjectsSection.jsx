@@ -2,12 +2,13 @@
 import { projects } from "~/lib/static-data";
 
 export default function FeaturedProjectsSection() {
+  let title = "Featured projects";
   return (
     <section
       id="FeaturedProjectsSection"
       className="FeaturedProjectsSection my-8 p-4"
     >
-      <p className="font-serif text-lg">Featured projects</p>
+      <p className="font-serif text-lg">{title}</p>
       <div className="featured-projects my-8 grid md:grid-cols-3 gap-6">
         {projects.map((project) => (
           <article key={project._uid} className="group relative">

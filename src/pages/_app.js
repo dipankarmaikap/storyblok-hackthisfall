@@ -7,7 +7,7 @@ import FeaturedProjectsSection from "~/components/FeaturedProjectsSection";
 import { storyblokInit, apiPlugin } from "@storyblok/react";
 let components = {
   FeaturedPostsSection,
-  DefaultPage,
+  page: DefaultPage,
   HeroSection,
   FeaturedProjectsSection,
 };
