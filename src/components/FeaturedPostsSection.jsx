@@ -2,9 +2,10 @@ import Link from "next/link";
 import { posts } from "~/lib/static-data";
 
 export default function FeaturedPostsSection() {
+  let title = "Featured posts";
   return (
     <section id="FeaturedPostsSection" className="FeaturedPostsSection my-8">
-      <p className="p-4 font-serif text-lg">Featured posts</p>
+      <p className="p-4 font-serif text-lg">{title}</p>
       <div className="recent-posts">
         {posts.map((post) => (
           <article
