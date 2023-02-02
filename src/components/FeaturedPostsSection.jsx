@@ -13,11 +13,10 @@ export default function FeaturedPostsSection() {
             className="border-b border-gray-700 p-4 lg:py-6"
           >
             <h2>
-              <Link
-                className="post text-5xl lg:text-7xl font-black"
-                href={post.full_slug}
-              >
-                {post.name}
+              <Link href={post.full_slug}>
+                <a className="post text-5xl lg:text-7xl font-black">
+                  {post.name}
+                </a>
               </Link>
             </h2>
           </article>
