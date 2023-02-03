@@ -15,11 +15,10 @@ export default function HeroSection() {
         <p className="text-xl lg:text-3xl font-serif leading-relaxed my-8">
           {description}
         </p>
-        <Link
-          className="uppercase font-bold text-lg lg:text-xl underline"
-          href="/blogs"
-        >
-          My Blogs
+        <Link href="/blogs">
+          <a className="uppercase font-bold text-lg lg:text-xl underline">
+            My Blogs
+          </a>
         </Link>
       </div>
     </section>
